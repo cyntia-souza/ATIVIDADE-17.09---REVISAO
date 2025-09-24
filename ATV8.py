@@ -19,7 +19,7 @@ while True:
         if valor != 0:
             n_despesas = n_despesas + 1
 
-    total = valor * n_despesas
+    total = total + valor
 
 print(f"o tota gasto foi: {total}")
 print(f"o numero de despesas foi: {n_despesas}")
